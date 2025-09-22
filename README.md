@@ -214,3 +214,7 @@ Instagram: <https://www.instagram.com/themesberg/>
 ### 1.1.2
 
 - subtable started...
+
+### 1.1.3
+
+- FooterWSWidths perfect

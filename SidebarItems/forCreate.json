@@ -13,6 +13,12 @@
         "isCollapsable": true,
         "SubItems": [
             {
+                "SubItemName": "footerWSWidths",
+                "DisplayName": "Serial Widths",
+                "IconClass": "bi bi-eye",
+                "SpanClass": "text-success"
+            },
+            {
                 "SubItemName": "footerWS",
                 "DisplayName": "footerWS",
                 "IconClass": "bi bi-eye",

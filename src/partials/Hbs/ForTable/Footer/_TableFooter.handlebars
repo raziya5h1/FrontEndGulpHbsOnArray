@@ -4,9 +4,11 @@
     {{#each columns}}
     <th>
         {{#if isInput}}
+
         <input class="form-control" id="HtmlId-{{field}}" name="{{field}}" autocomplete="off"
          {{#if required}}required{{/if}}
-          {{#if isAutoFocus}} autofocus {{/if}} />
+          {{#if isAutoFocus}} autofocus {{/if}}  />
+        
         {{/if}}
         
         {{#if isNumber}}
