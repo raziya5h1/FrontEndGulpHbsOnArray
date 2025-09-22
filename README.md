@@ -218,3 +218,7 @@ Instagram: <https://www.instagram.com/themesberg/>
 ### 1.1.3
 
 - FooterWSWidths perfect
+
+### 1.1.4
+
+- default, widths.px value perfect

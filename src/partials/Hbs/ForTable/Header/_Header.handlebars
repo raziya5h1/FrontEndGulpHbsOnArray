@@ -8,8 +8,10 @@
        {{#if align}}data-align="{{align}}" {{/if}}
         {{#if showRupee}}data-formatter="window.RupeeFormatter" {{/if}}
         {{#if (isVisible this)}} data-visible={{visible}}{{/if}}
-          {{#if isWidthTF}} data-width="{{WidthOptions.inPx}}" {{/if}}     >
-        
+          {{#if WidthOptions.inPx}} data-width="{{WidthOptions.inPx}}" {{/if}}
+              {{#if defaultvalue}} data-defaultvalue="{{defaultvalue}}" {{/if}}     >
+                         
+
         {{title}}
     </th>
     {{/each}}
