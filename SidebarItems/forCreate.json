@@ -35,6 +35,12 @@
                 "DisplayName": "SecureWS",
                 "IconClass": "bi bi-eye",
                 "SpanClass": "text-success"
+            },
+            {
+                "SubItemName": "footerDL",
+                "DisplayName": "footerDL",
+                "IconClass": "bi bi-eye",
+                "SpanClass": "text-success"
             }
         ]
     },

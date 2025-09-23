@@ -1,82 +1,40 @@
 {
-    "tableName": "TasksTable",
+    "tableName": "UsersTable",
     "columns": [
         {
-            "field": "title",
-            "title": "Title",
+            "field": "UserName",
+            "title": "UserName",
             "unique": true,
             "type": "text",
             "isInput": true,
-            "isAutoFocus": true,
-            "defaultvalue": "2nd"
+            "isAutoFocus": true
         },
         {
-            "field": "start",
-            "title": "Start Date",
-            "unique": false,
-            "type": "date",
-            "isDate": true,
-            "WidthOptions": {
-                "inPx": 200
-            }
-        },
-        {
-            "field": "className",
-            "title": "Class Name",
-            "unique": false,
+            "field": "Password",
+            "title": "Password",
             "type": "text",
-            "isInput": false,
-            "isSelect": true,
-            "isDataList": false,
-            "selectOptions": [
-                {
-                    "value": "bg-primary",
-                    "text": "bg-primary"
-                },
-                {
-                    "value": "bg-success",
-                    "text": "bg-success"
-                }
-            ],
-            "WidthOptions": {
-                "inPx": 250
-            }
+            "isInput": true
         }
     ],
-    "data": [],
+    "data": [
+        {
+            "UserName": "Keshav",
+            "Password": 9848163021
+        }
+    ],
     "Vertical": [
         {
-            "field": "title",
-            "title": "Title",
+            "field": "UserName",
+            "title": "UserName",
             "unique": true,
             "type": "text",
             "isInput": true
         },
         {
-            "field": "start",
-            "title": "Start Date",
-            "unique": false,
-            "type": "date",
-            "isInput": true
-        },
-        {
-            "field": "className",
-            "title": "Class Name",
-            "unique": false,
+            "field": "Password",
+            "title": "Password",
             "type": "text",
-            "isInput": false,
-            "isSelect": false,
-            "isDataList": true,
-            "selectOptions": [
-                {
-                    "value": "bg-primary",
-                    "text": "bg-primary"
-                },
-                {
-                    "value": "bg-success",
-                    "text": "bg-success"
-                }
-            ]
+            "isInput": true
         }
     ],
     "DataTableOptions": {
