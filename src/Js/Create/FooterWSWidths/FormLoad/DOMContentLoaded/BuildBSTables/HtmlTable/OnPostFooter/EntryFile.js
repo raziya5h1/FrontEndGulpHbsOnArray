@@ -1,20 +1,14 @@
+import { StartFunc as StartFuncFromForDefaultValue } from "./forDefaultValue.js";
+
 let StartFunc = (inData, inOptions) => {
     // const k1 = inOptions.$tableFooter[0].querySelectorAll("th")[1].querySelector("input");
-
+    const jVarLocalColumns = inOptions.columns;
+    console.log("jVarLocalColumns", jVarLocalColumns);
     const jVarLocalFooterCells = inOptions.$tableFooter[0].querySelectorAll("th");
 
-    const jVarLocalDefaultValues = inOptions.columns.map(element => {
-        return element.defaultvalue;
-    });
-
-    jVarLocalFooterCells.forEach((element, LoopIndex) => {
-        // console.log("nnn", element, jVarLocalDefaultValues[LoopIndex]);
-
-        if (jVarLocalDefaultValues[LoopIndex] !== undefined) {
-            const LoopInsideInput = element.querySelector("input");
-
-            LoopInsideInput.value = jVarLocalDefaultValues[LoopIndex];
-        };
+    StartFuncFromForDefaultValue({
+        inColumns: inOptions.columns,
+        inFooterCells: jVarLocalFooterCells
     });
 
     LocalFuncSetFocus();

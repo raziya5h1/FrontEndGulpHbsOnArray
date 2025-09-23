@@ -222,3 +222,7 @@ Instagram: <https://www.instagram.com/themesberg/>
 ### 1.1.4
 
 - default, widths.px value perfect
+
+### 1.1.5
+
+- default perfect type: date
