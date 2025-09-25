@@ -226,3 +226,7 @@ Instagram: <https://www.instagram.com/themesberg/>
 ### 1.1.5
 
 - default perfect type: date
+
+### 1.1.6
+
+- showall wa redirect perfect
