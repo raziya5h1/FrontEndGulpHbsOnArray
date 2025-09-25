@@ -6,6 +6,7 @@ const StartFunc = async (row, $element, field) => {
         if (jVarLocalFromSwal.isConfirmed) {
             if ("pk" in row) {
                 await FetchDelete({ inRowPk: row.pk });
+
                 Swal.fire({
                     title: "Deleted!",
                     text: `The record ${row.pk} has been deleted.`,

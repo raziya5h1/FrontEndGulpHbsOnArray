@@ -230,3 +230,7 @@ Instagram: <https://www.instagram.com/themesberg/>
 ### 1.1.6
 
 - showall wa redirect perfect
+
+### 1.1.7
+
+- linkAndPage perfect with optionsjson
