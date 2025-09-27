@@ -1,13 +1,12 @@
-let StartFunc = () => {
-    let jVarLocalRefreshBSTableId = document.querySelector(`.RefreshBSTableClass`);
-    jVarLocalRefreshBSTableId.click();
+import { StartFunc as status200 } from "./status200.js";
+import { StartFunc as status409 } from "./status409.js";
 
-    let $autoFocusInput = $("#table tfoot").find("input[autofocus], select[autofocus], textarea[autofocus]");
-
-
-    if ($autoFocusInput.length > 0) {
-        console.log("zzzzzzzzzzz : ", $autoFocusInput[0]);
-        $autoFocusInput[0].focus();
+let StartFunc = async ({ Res }) => {
+    if (Res.status === 200) {
+        status200();
+    };
+    if (Res.status !== 200) {
+        status409(Res);
     };
 };
 
