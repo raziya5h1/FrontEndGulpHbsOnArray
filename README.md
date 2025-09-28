@@ -237,3 +237,7 @@ Instagram: <https://www.instagram.com/themesberg/>
 ### 1.1.8
 
 - showall asis logout common perfect
+
+### 1.1.9
+
+- create vertical perfect
