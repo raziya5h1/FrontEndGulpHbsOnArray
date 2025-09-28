@@ -1,0 +1,8 @@
+POST http://localhost:3000/V1/TasksTable/SubTable/Insert/WithUuIdAndDT/{RowIndex}/{KeyName}
+Content-Type: application/json
+
+{
+  "title": "",
+  "start": "",
+  "className": ""
+}
