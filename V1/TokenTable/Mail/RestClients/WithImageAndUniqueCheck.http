@@ -1,0 +1,6 @@
+POST http://localhost:3000/V1/TokenTable/Mail/WithImageAndUniqueCheck
+Content-Type: application/json
+
+{
+  "Secret": ""
+}
