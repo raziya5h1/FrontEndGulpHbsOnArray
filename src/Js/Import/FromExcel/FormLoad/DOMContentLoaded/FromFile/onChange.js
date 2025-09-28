@@ -3,7 +3,7 @@ import { StartFunc as showInTable } from "./showInTable.js";
 let StartFunc = (event) => {
   const file = event.target.files[0];
   const reader = new FileReader();
-
+  // debugger
   if (file.type === "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet") {
     reader.onload = (e) => {
       const data = e.target.result;

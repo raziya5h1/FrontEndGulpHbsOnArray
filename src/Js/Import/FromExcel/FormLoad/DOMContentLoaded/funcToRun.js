@@ -6,7 +6,6 @@ let StartFunc = () => {
     StartFuncFromBuildBsTable();
     StartFuncFromFromFile();
     StartFuncSaveButtonId();
-
 };
 
 export { StartFunc };

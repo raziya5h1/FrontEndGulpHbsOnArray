@@ -241,3 +241,7 @@ Instagram: <https://www.instagram.com/themesberg/>
 ### 1.1.9
 
 - create vertical perfect
+
+### 1.1.10
+
+- import table show good but upload not tested
