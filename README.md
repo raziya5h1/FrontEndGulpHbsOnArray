@@ -71,7 +71,7 @@ This project demonstrates the basic CRUD (Create, Read, Update, Delete) operatio
    User clicks Delete → removes data from array.
 
 # 📂 Project Structure
-'''
+```
 project-root/
 ├── app.js                 # Main entry point
 ├── .env                   # Environment variables
@@ -92,7 +92,7 @@ project-root/
 │
 ├── token/                 # Token management (JWT helpers, refresh, etc.)
 │
-└── utils/                 # (Optional) Utilities/helpers'''
+└── utils/                 # (Optional) Utilities/helpers```
 
 # How to Run
  Option 1 – Pure Frontend
