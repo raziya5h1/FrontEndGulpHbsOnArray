@@ -38,23 +38,23 @@ This project demonstrates the basic CRUD (Create, Read, Update, Delete) operatio
 
 # 2. Backend (Optional with Node.js/Express) 
 
-    If using only arrays in the frontend → backend is not required.
+   If using only arrays in the frontend → backend is not required.
 
-    If using Node.js →
+   If using Node.js →
 
-    Backend maintains the array data in memory.
+   Backend maintains the array data in memory.
 
-    Provides REST API endpoints like:
+   Provides REST API endpoints like:
 
-    POST /create → Add new item
+   POST /create → Add new item
 
-    GET /read → Fetch all items
+   GET /read → Fetch all items
 
-    PUT /update/:id → Update item
+   PUT /update/:id → Update item
 
-    DELETE /delete/:id → Delete item
+   DELETE /delete/:id → Delete item
 
-    Frontend calls these APIs using fetch() or Axios.
+   Frontend calls these APIs using fetch() or Axios.
 
 # Example Workflow
 
