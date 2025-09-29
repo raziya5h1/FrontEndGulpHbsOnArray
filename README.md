@@ -4,7 +4,7 @@
 This project demonstrates the basic CRUD (Create, Read, Update, Delete) operations using JavaScript Arrays. It is developed as a practice project under Keshavshoft to understand how frontend and backend interact in a simple CRUD system.
 
 # CRUD is the foundation of most applications:
-
+```
    Create → Add new data to an array.
 
    Read → Display or fetch data from the array.
@@ -14,10 +14,10 @@ This project demonstrates the basic CRUD (Create, Read, Update, Delete) operatio
    Delete → Remove data from the array.
 
    The project is run inside Visual Studio Code with Node.js for backend logic and plain HTML, CSS, JavaScript for frontend.
-
+```
 # How It Works
 # 1. Frontend
-
+```
    Built with HTML, CSS, and JavaScript.
 
    Provides input fields and buttons for CRUD operations.
@@ -25,9 +25,9 @@ This project demonstrates the basic CRUD (Create, Read, Update, Delete) operatio
    Uses JavaScript DOM manipulation to show array data on the webpage.
 
    Sends requests to the backend (if connected with Node.js) or directly manipulates arrays in the browser.
-
+```
 # Example frontend flow:
-
+```
    User enters data (e.g., name, age).
 
    Clicks Add → data is pushed to the array.
@@ -35,9 +35,9 @@ This project demonstrates the basic CRUD (Create, Read, Update, Delete) operatio
    Data is displayed in a table or list.
 
    Edit/Delete buttons allow modification of array values.
-
+````
 # 2. Backend (Optional with Node.js/Express) 
-
+```
    If using only arrays in the frontend → backend is not required.
 
    If using Node.js →
@@ -55,9 +55,9 @@ This project demonstrates the basic CRUD (Create, Read, Update, Delete) operatio
    DELETE /delete/:id → Delete item
 
    Frontend calls these APIs using fetch() or Axios.
-
+```
 # Example Workflow
-
+```
    User opens the app in browser.
 
    Frontend shows a form + table.
@@ -69,7 +69,7 @@ This project demonstrates the basic CRUD (Create, Read, Update, Delete) operatio
    User clicks Edit → updates array data.
 
    User clicks Delete → removes data from array.
-
+```
 # 📂 Project Structure
 ```
 project-root/
@@ -96,15 +96,15 @@ project-root/
 ```
 # How to Run
  Option 1 – Pure Frontend
-
+```
  Open index.html in a browser.
 
  Perform CRUD directly on arrays in JavaScript.
 
  Option 2 – With Backend (Node.js)
-
+```
 # Install dependencies:
-
+```
   npm install express
 
 
@@ -113,9 +113,9 @@ project-root/
   node server.js
 
   Open index.html → It communicates with backend APIs.
-
+````
 #  Key Learning
-
+```
    Understanding CRUD logic.
 
    How frontend interacts with arrays.
@@ -123,7 +123,7 @@ project-root/
    How backend APIs can be used to store and manipulate data.
 
    A foundation for moving from arrays → databases (MongoDB, SQL).
-
+```
 # About Keshavshoft
 
   This project is created under Keshavshoft for learning and practice purposes. It is intended to give beginners a hands-on experience of how CRUD works before moving to advanced database-driven applications.
