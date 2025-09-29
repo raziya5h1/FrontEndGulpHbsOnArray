@@ -92,8 +92,8 @@ project-root/
 │
 ├── token/                 # Token management (JWT helpers, refresh, etc.)
 │
-└── utils/                 # (Optional) Utilities/helpers ```
-
+└── utils/                 # (Optional) Utilities/helpers 
+```
 # How to Run
  Option 1 – Pure Frontend
 
