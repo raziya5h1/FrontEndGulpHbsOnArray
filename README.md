@@ -16,7 +16,7 @@ This project demonstrates the basic CRUD (Create, Read, Update, Delete) operatio
    The project is run inside Visual Studio Code with Node.js for backend logic and plain HTML, CSS, JavaScript for frontend.
 
 # How It Works
-1. Frontend
+# 1. Frontend
 
    Built with HTML, CSS, and JavaScript.
 
