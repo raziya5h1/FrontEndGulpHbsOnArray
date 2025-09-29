@@ -36,7 +36,7 @@ This project demonstrates the basic CRUD (Create, Read, Update, Delete) operatio
 
    Edit/Delete buttons allow modification of array values.
 
-# 2. Backend (Optional with Node.js/Express)
+# 2. Backend (Optional with Node.js/Express) 
 
     If using only arrays in the frontend → backend is not required.
 
@@ -94,13 +94,13 @@ project-root/
 └── utils/                 # (Optional) Utilities/helpers
 
 # How to Run
-    Option 1 – Pure Frontend
+ Option 1 – Pure Frontend
 
-    Open index.html in a browser.
+ Open index.html in a browser.
 
-    Perform CRUD directly on arrays in JavaScript.
+ Perform CRUD directly on arrays in JavaScript.
 
-    Option 2 – With Backend (Node.js)
+ Option 2 – With Backend (Node.js)
 
 # Install dependencies:
 
