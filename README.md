@@ -71,6 +71,7 @@ This project demonstrates the basic CRUD (Create, Read, Update, Delete) operatio
    User clicks Delete → removes data from array.
 
 # 📂 Project Structure
+
 project-root/
 ├── app.js                 # Main entry point
 ├── .env                   # Environment variables
