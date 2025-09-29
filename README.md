@@ -126,8 +126,7 @@ project-root/
 
 # About Keshavshoft
 
-  This project is created under Keshavshoft for learning and practice purposes. It is intended to give beginners a hands-on experience of how CRUD works before    
-    moving to advanced database-driven applications.
+  This project is created under Keshavshoft for learning and practice purposes. It is intended to give beginners a hands-on experience of how CRUD works before moving to advanced database-driven applications.
 
 # [Volt - Bootstrap 5 Admin Dashboard](https://demo.themesberg.com/volt/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fvolt-bootstrap-5-dashboard&via=themesberg&text=Volt%20-%20Open%20Source%20Bootstrap%205%20Admin%20Dashboard)
 
